@@ -16,6 +16,9 @@ from coffea.util import load, save
 from coffea.nanoevents import NanoAODSchema
 
 import topeft
+# import processors.topeft as topeft
+
+
 import topcoffea.modules.utils as utils
 from topcoffea.modules import samples
 from topcoffea.modules import fileReader

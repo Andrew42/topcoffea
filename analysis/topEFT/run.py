@@ -14,7 +14,7 @@ from coffea import hist, processor
 from coffea.util import load, save
 from coffea.nanoevents import NanoAODSchema
 
-import topeft
+from processors import topeft
 from topcoffea.modules import samples
 from topcoffea.modules import fileReader
 from topcoffea.modules.utils import dump_to_pkl, get_hist_from_pkl
